@@ -5,16 +5,16 @@
     "keywords": [
         "zf2"
     ],
-    "homepage": "https://github.com/smasherhell/roleuserbridge",
+    "homepage": "https://github.com/SmasherHell/roleuserbridge",
     "authors": [
+        {
+            "name": "SmasherHell",
+            "homepage": "https://github.com/SmasherHell/"
+        },
         {
             "name": "Darkmatus",
             "email": "mueller@s-p-it.de",
             "homepage": "https://github.com/darkmatus/"
-        },
-        {
-            "name": "SmasherHell",
-            "homepage": "https://github.com/SmasherHell/"
         }
     ],
     "require": {
