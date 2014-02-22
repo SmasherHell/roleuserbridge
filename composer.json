@@ -1,16 +1,20 @@
 {
-    "name": "darkmatus/roleuserbridge",
+    "name": "smasherhell/roleuserbridge",
     "description": "ZfcUser/BjyAuthorize Bridge for auto-adding User to the user_role_table from BjyAuthorize.",
     "type": "library",
     "keywords": [
         "zf2"
     ],
-    "homepage": "https://github.com/darkmatus/roleuserbridge",
+    "homepage": "https://github.com/smasherhell/roleuserbridge",
     "authors": [
         {
             "name": "Darkmatus",
             "email": "mueller@s-p-it.de",
             "homepage": "https://github.com/darkmatus/"
+        },
+        {
+            "name": "SmasherHell",
+            "homepage": "https://github.com/SmasherHell/"
         }
     ],
     "require": {
@@ -18,7 +22,7 @@
         "zendframework/zendframework": "2.*",
         "zf-commons/zfc-base": "0.*",
         "zf-commons/zfc-user": "0.*",
-        "bjyoungblood/bjy-authorize": "dev-master"
+        "bjyoungblood/bjy-authorize": "1.4.*"
     },
     "autoload": {
         "psr-0": {

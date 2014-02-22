@@ -1,6 +1,10 @@
 ZfcUser-BjyAuthorize-Bridge
 ===========================
 
+<pre>
+php composer.phar require smasherhell/roleuserbridge:dev-master
+</pre>
+
 ZfcUser/BjyAuthorize Bridge for auto-adding User to the user_role_table from BjyAuthorize
 
 Requires: ZF2 latest master,
