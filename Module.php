@@ -40,7 +40,6 @@ class Module implements AutoloaderProviderInterface,
                 'zfcuser_user_service' => 'RoleUserBridge\Service\User',
             ),
             'factories' => array(
-
                 'user_role_mapper' => function ($sm) {
                     $options = $sm->get('zfcuser_module_options');
                     $config = $sm->get('config');
@@ -48,7 +47,7 @@ class Module implements AutoloaderProviderInterface,
                     $mapper->setDbAdapter($sm->get('zfcuser_zend_db_adapter'));
                     $entityClass = $options->getUserEntityClass();
                     $mapper->setEntityPrototype(new $entityClass);
-                    $mapper->setHydrator(new \ZfcUser\Mapper\UserHydrator());
+                    $mapper->setHydrator($sm->get('zfcuser_user_hydrator'));
                     return $mapper;
                 },
             )
